@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verification - Wreckit</title>
+    <link rel="stylesheet" href="ctf_styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Background Matrix Effect -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Sidebar -->
+    <div class="menu-btn" onclick="toggleSidebar()">&#9776;</div>
+    <div class="sidebar" id="sidebar">
+      <a href="javascript:void(0)" class="close-btn" onclick="toggleSidebar()"
+        >&times;</a
+      >
+      <a href="regis.html">Register</a>
+      <a href="verification.html">Verify</a>
+      <a href="about.html">Services</a>
+      <a href="ctf_index.html">Coming Soon</a>
+    </div>
+
+    <!-- Content Container -->
+    <div class="content-container">
+      <div class="glow-container">
+        <canvas id="glitchCanvas"></canvas>
+      </div>
+
+      <!-- Verification Form -->
+      <div class="form-container">
+        <h1 class="form-title">Verifikasi</h1>
+        <p class="form-subtitle">
+          Masukkan kode verifikasi yang dikirim ke email Anda
+        </p>
+        <form id="verificationForm">
+          <label for="code">Kode Verifikasi</label>
+          <input
+            type="text"
+            id="code"
+            name="code"
+            placeholder="6-digit kode"
+            required
+            maxlength="6"
+          />
+
+          <button type="submit">Verifikasi</button>
+        </form>
+
+        <p class="login-redirect">
+          Tidak menerima kode? <a href="#" id="resendCode">Kirim ulang</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="sidebar_script.js"></script>
+    <script src="ctf_script.js"></script>
+    <script src="verification_script.js"></script>
+    <!-- Tambahkan script baru -->
+  </body>
+</html>

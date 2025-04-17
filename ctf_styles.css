@@ -1,0 +1,266 @@
+/* IMPORT FONT VT323 */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* RESET DEFAULT STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'VT323', monospace;
+}
+
+body {
+    background-color: #000;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* MATRIX BACKGROUND */
+#matrixCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* CONTENT CONTAINER */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* IMAGE CONTAINER WITH DYNAMIC AURA */
+.glow-container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: auraFlicker 3s infinite alternate;
+}
+
+/* AURA (GLOW) EFFECT */
+.glow-container::before {
+    content: "";
+    position: absolute;
+    width: 160%;
+    height: 160%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.5), rgba(0, 0, 0, 0));
+    filter: blur(30px);
+    z-index: -1;
+    animation: pulseAura 3s infinite alternate ease-in-out;
+}
+
+/* IMAGE CANVAS */
+#glitchCanvas {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* COMING SOON TEXT (VT323 FONT, LEBIH BESAR) */
+.coming-soon-title {
+    font-family: 'VT323', monospace;
+    font-size: clamp(35px, 7vw, 80px);
+    font-weight: 700;
+    color: #FFD700; /* Neon Yellow */
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba(255, 215, 0, 1); /* Glow effect */
+    animation: textGlow 3s infinite alternate ease-in-out, glitch 0.2s infinite;
+    margin-top: 10px;
+}
+
+/* GLITCH EFFECT ON TEXT (PERMANEN) */
+@keyframes glitch {
+    0% { text-shadow: 5px 5px rgba(255, 0, 255, 0.5), -5px -5px rgba(0, 255, 255, 0.5); }
+    25% { text-shadow: -5px -5px rgba(255, 0, 255, 0.5), 5px 5px rgba(0, 255, 255, 0.5); }
+    50% { text-shadow: 8px 8px rgba(255, 0, 255, 0.6), -8px -8px rgba(0, 255, 255, 0.6); }
+    75% { text-shadow: -5px 5px rgba(255, 0, 255, 0.5), 5px -5px rgba(0, 255, 255, 0.5); }
+    100% { text-shadow: 5px -5px rgba(255, 0, 255, 0.5), -5px 5px rgba(0, 255, 255, 0.5); }
+}
+
+/* AURA FLICKERING EFFECT */
+@keyframes auraFlicker {
+    0% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.08); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.9; }
+}
+
+/* PULSING AURA EFFECT */
+@keyframes pulseAura {
+    0% { opacity: 0.6; filter: blur(20px); }
+    50% { opacity: 1; filter: blur(35px); }
+    100% { opacity: 0.6; filter: blur(20px); }
+}
+
+/* TEXT GLOW INTENSITY VARIATION */
+@keyframes textGlow {
+    0% { text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8); }
+    50% { text-shadow: 0px 0px 30px rgba(255, 215, 0, 1); }
+    100% { text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8); }
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background: rgba(0, 0, 0, 0.6); /* Transparan */
+    backdrop-filter: blur(10px); /* Efek blur */
+    padding-top: 60px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 0 15px rgba(255, 255, 0, 0.3); /* Efek neon */
+}
+
+/* Efek Neon pada Teks */
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: yellow; 
+    display: block;
+    transition: 0.3s;
+    text-shadow: 0 0 10px yellow;
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    text-shadow: 0 0 20px yellow;
+}
+
+/* Tombol Menu */
+.menu-btn {
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+    text-shadow: 0 0 15px yellow;
+}
+
+.menu-btn:hover {
+    text-shadow: 0 0 25px yellow;
+}
+
+/* Tombol Close */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+    color: yellow;
+    text-shadow: 0 0 15px yellow;
+}
+
+/* Efek buka sidebar */
+.open {
+    left: 0;
+}
+/* REGISTRATION FORM */
+.form-container {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); /* Neon glow effect */
+    text-align: center;
+}
+
+.form-title {
+    font-family: 'VT323', monospace;
+    font-size: clamp(30px, 6vw, 50px);
+    font-weight: 700;
+    color: #FFD700; /* Neon Yellow */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 20px rgba(255, 215, 0, 1); /* Glow effect */
+}
+
+.form-subtitle {
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* FORM INPUTS */
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #222;
+    color: #f4f4f4;
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD700;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+/* LOGIN REDIRECT */
+.login-redirect {
+    margin-top: 20px;
+    color: #bbb;
+}
+
+.login-redirect a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.login-redirect a:hover {
+    text-decoration: underline;
+}
+/* Background Matrix Effect */
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('path_to_your_image.png') no-repeat center center fixed;
+    background-size: cover;
+}

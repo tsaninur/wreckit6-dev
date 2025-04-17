@@ -1,0 +1,1564 @@
+[11-Apr-2025 14:14:15 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:15 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:15 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:21 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:21 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:21 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:29 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:29 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:29 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:52 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:52 Asia/Jakarta] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:14:52 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-server/process_forgot_password.php on line 6
+[11-Apr-2025 14:42:00 Asia/Jakarta] Starting process_forgot_password.php
+[11-Apr-2025 14:42:00 Asia/Jakarta] Database connection successful
+[11-Apr-2025 14:42:00 Asia/Jakarta] Email check completed: User found
+[11-Apr-2025 14:42:00 Asia/Jakarta] Token generated: 3b955cfe6a01f3248f0afc222dfb6eaff33bc00aea92fa67d64b64208e76c94e
+[11-Apr-2025 14:42:00 Asia/Jakarta] Token stored in database
+[11-Apr-2025 14:42:00 Asia/Jakarta] Reset link: https://wreckit.id/reset_password.php?token=3b955cfe6a01f3248f0afc222dfb6eaff33bc00aea92fa67d64b64208e76c94e
+[11-Apr-2025 14:42:00 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Fri, 11 Apr 2025 14:42:00 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[11-Apr-2025 14:42:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 535 Incorrect authentication data
+
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [1]: SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [2]: SMTP Error: Could not authenticate.
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer debug [2]: SMTP Error: Could not authenticate.
+[11-Apr-2025 14:42:02 Asia/Jakarta] PHPMailer error: SMTP Error: Could not authenticate.
+[11-Apr-2025 14:44:37 Asia/Jakarta] Starting process_forgot_password.php
+[11-Apr-2025 14:44:37 Asia/Jakarta] Database connection successful
+[11-Apr-2025 14:44:37 Asia/Jakarta] Email check completed: User found
+[11-Apr-2025 14:44:37 Asia/Jakarta] Token generated: e6f6306d78273858ceb9d69ec84eac7b91b47fbf93ea380ca93a3e1bbd0a84e0
+[11-Apr-2025 14:44:37 Asia/Jakarta] Token stored in database
+[11-Apr-2025 14:44:37 Asia/Jakarta] Reset link: https://wreckit.id/reset_password.php?token=e6f6306d78273858ceb9d69ec84eac7b91b47fbf93ea380ca93a3e1bbd0a84e0
+[11-Apr-2025 14:44:37 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Fri, 11 Apr 2025 14:44:37 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Fri, 11 Apr 2025 14:44:37 +0700
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <0Fj6QjjcXwQSBTGlotb0QWZ0ta3yeT9WCZHJn3sU@wreckit.id>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_0Fj6QjjcXwQSBTGlotb0QWZ0ta3yeT9WCZHJn3sU"
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_0Fj6QjjcXwQSBTGlotb0QWZ0ta3yeT9WCZHJn3sU
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/reset_password.php?token=e6f6306d78273858ceb9d69ec84eac7b91b47fbf93ea380ca93a3e1bbd0a84e0
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_0Fj6QjjcXwQSBTGlotb0QWZ0ta3yeT9WCZHJn3sU
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/reset_password.php?token=e6f6306d78273858ceb9d69ec84eac7b91b47fbf93ea380ca93a3e1bbd0a84e0'>https://wreckit.id/reset_password.php?token=e6f6306d78273858ceb9d69ec84eac7b91b47fbf93ea380ca93a3e1bbd0a84e0</a>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_0Fj6QjjcXwQSBTGlotb0QWZ0ta3yeT9WCZHJn3sU--
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u3941-00000000fcH-31Vo
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[11-Apr-2025 14:44:37 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[11-Apr-2025 14:56:56 Asia/Jakarta] Starting process_forgot_password.php
+[11-Apr-2025 14:56:56 Asia/Jakarta] Database connection successful
+[11-Apr-2025 14:56:56 Asia/Jakarta] Email check completed: User found
+[11-Apr-2025 14:56:56 Asia/Jakarta] Token generated: 57c14cd44c6c04688251efc9f32432fc5d1d1e0b3b69a627732f51d8561e26cf
+[11-Apr-2025 14:56:56 Asia/Jakarta] Token stored in database
+[11-Apr-2025 14:56:56 Asia/Jakarta] Reset link: https://wreckit.id/reset_password.php?token=57c14cd44c6c04688251efc9f32432fc5d1d1e0b3b69a627732f51d8561e26cf
+[11-Apr-2025 14:56:56 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Fri, 11 Apr 2025 14:56:56 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Fri, 11 Apr 2025 14:56:56 +0700
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <CcyizJokDLNYl5kUilkZMYQry5h5MdrYGsXtLBg@wreckit.id>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_CcyizJokDLNYl5kUilkZMYQry5h5MdrYGsXtLBg"
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_CcyizJokDLNYl5kUilkZMYQry5h5MdrYGsXtLBg
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/reset_password.php?token=57c14cd44c6c04688251efc9f32432fc5d1d1e0b3b69a627732f51d8561e26cf
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_CcyizJokDLNYl5kUilkZMYQry5h5MdrYGsXtLBg
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/reset_password.php?token=57c14cd44c6c04688251efc9f32432fc5d1d1e0b3b69a627732f51d8561e26cf'>https://wreckit.id/reset_password.php?token=57c14cd44c6c04688251efc9f32432fc5d1d1e0b3b69a627732f51d8561e26cf</a>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_CcyizJokDLNYl5kUilkZMYQry5h5MdrYGsXtLBg--
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u39Fw-00000000E7c-3lg4
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[11-Apr-2025 14:56:56 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[11-Apr-2025 21:41:44 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 10:44:00 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 10:44:00 Asia/Jakarta] Database connection successful
+[15-Apr-2025 10:44:00 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 10:44:00 Asia/Jakarta] Token generated: bb15213ac4e19606de2813f8052f5fa036d7aa2f07b15a99c1d3d48566a8ebc4
+[15-Apr-2025 10:44:00 Asia/Jakarta] Token stored in database
+[15-Apr-2025 10:44:00 Asia/Jakarta] Reset link: https://wreckit.id/reset_password.php?token=bb15213ac4e19606de2813f8052f5fa036d7aa2f07b15a99c1d3d48566a8ebc4
+[15-Apr-2025 10:44:00 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 10:44:00 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 10:44:00 +0700
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <63Mq32BVuuRM21zfmTq7EfM5XTdINT1CkrX2MroUk@wreckit.id>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_63Mq32BVuuRM21zfmTq7EfM5XTdINT1CkrX2MroUk"
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_63Mq32BVuuRM21zfmTq7EfM5XTdINT1CkrX2MroUk
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/reset_password.php?token=bb15213ac4e19606de2813f8052f5fa036d7aa2f07b15a99c1d3d48566a8ebc4
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_63Mq32BVuuRM21zfmTq7EfM5XTdINT1CkrX2MroUk
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/reset_password.php?token=bb15213ac4e19606de2813f8052f5fa036d7aa2f07b15a99c1d3d48566a8ebc4'>https://wreckit.id/reset_password.php?token=bb15213ac4e19606de2813f8052f5fa036d7aa2f07b15a99c1d3d48566a8ebc4</a>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_63Mq32BVuuRM21zfmTq7EfM5XTdINT1CkrX2MroUk--
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4XDN-00000000Mga-1kPf
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 10:44:00 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[15-Apr-2025 10:49:36 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 10:49:36 Asia/Jakarta] Database connection successful
+[15-Apr-2025 10:49:36 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 10:49:36 Asia/Jakarta] Token generated: 6006ec0e32e77144dbb5b4ccccc895a25cbd1c5cd3a86e4322beafd68f25b23c
+[15-Apr-2025 10:49:36 Asia/Jakarta] Token stored in database
+[15-Apr-2025 10:49:36 Asia/Jakarta] Reset link: https://wreckit.id/reset_password.php?token=6006ec0e32e77144dbb5b4ccccc895a25cbd1c5cd3a86e4322beafd68f25b23c
+[15-Apr-2025 10:49:36 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 10:49:36 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 10:49:36 +0700
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <sfe0iXT6ZdEcKjw5fpeVWoGyI4PFOvtZY6FrVZaS3tg@wreckit.id>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_sfe0iXT6ZdEcKjw5fpeVWoGyI4PFOvtZY6FrVZaS3tg"
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_sfe0iXT6ZdEcKjw5fpeVWoGyI4PFOvtZY6FrVZaS3tg
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/reset_password.php?token=6006ec0e32e77144dbb5b4ccccc895a25cbd1c5cd3a86e4322beafd68f25b23c
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_sfe0iXT6ZdEcKjw5fpeVWoGyI4PFOvtZY6FrVZaS3tg
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/reset_password.php?token=6006ec0e32e77144dbb5b4ccccc895a25cbd1c5cd3a86e4322beafd68f25b23c'>https://wreckit.id/reset_password.php?token=6006ec0e32e77144dbb5b4ccccc895a25cbd1c5cd3a86e4322beafd68f25b23c</a>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_sfe0iXT6ZdEcKjw5fpeVWoGyI4PFOvtZY6FrVZaS3tg--
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4XIn-00000000Xmf-1OH5
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 10:49:36 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[15-Apr-2025 10:56:41 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 10:56:41 Asia/Jakarta] Database connection successful
+[15-Apr-2025 10:56:41 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 10:56:41 Asia/Jakarta] Token generated: 9a396373e5b192ec3ab5ebef584444cf81adee5944a27df3bda40ab37e084eb5
+[15-Apr-2025 10:56:41 Asia/Jakarta] Token stored in database
+[15-Apr-2025 10:56:41 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset-password.php?token=9a396373e5b192ec3ab5ebef584444cf81adee5944a27df3bda40ab37e084eb5
+[15-Apr-2025 10:56:41 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 10:56:41 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 10:56:41 +0700
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <oVVY4wYCzOFt1ALScc8UDxlv479dkwtn507uxjfFI0@wreckit.id>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_oVVY4wYCzOFt1ALScc8UDxlv479dkwtn507uxjfFI0"
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_oVVY4wYCzOFt1ALScc8UDxlv479dkwtn507uxjfFI0
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset-password.php?token=9a396373e5b192ec3ab5ebef584444cf81adee5944a27df3bda40ab37e084eb5
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_oVVY4wYCzOFt1ALScc8UDxlv479dkwtn507uxjfFI0
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/wreckit6-dev/reset-password.php?token=9a396373e5b192ec3ab5ebef584444cf81adee5944a27df3bda40ab37e084eb5'>https://wreckit.id/wreckit6-dev/reset-password.php?token=9a396373e5b192ec3ab5ebef584444cf81adee5944a27df3bda40ab37e084eb5</a>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_oVVY4wYCzOFt1ALScc8UDxlv479dkwtn507uxjfFI0--
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4XPe-00000000l3y-3sDl
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 10:56:41 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[15-Apr-2025 10:57:01 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 10:57:01 Asia/Jakarta] Database connection successful
+[15-Apr-2025 10:57:01 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 10:57:01 Asia/Jakarta] Token generated: 90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9
+[15-Apr-2025 10:57:01 Asia/Jakarta] Token stored in database
+[15-Apr-2025 10:57:01 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset-password.php?token=90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9
+[15-Apr-2025 10:57:01 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 10:57:01 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 10:57:01 +0700
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <VC4XVLUCxVANfZen6HZlpXTVXcnoY3kesVRXtZZ8@wreckit.id>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_VC4XVLUCxVANfZen6HZlpXTVXcnoY3kesVRXtZZ8"
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_VC4XVLUCxVANfZen6HZlpXTVXcnoY3kesVRXtZZ8
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset-password.php?token=90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_VC4XVLUCxVANfZen6HZlpXTVXcnoY3kesVRXtZZ8
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/wreckit6-dev/reset-password.php?token=90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9'>https://wreckit.id/wreckit6-dev/reset-password.php?token=90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9</a>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_VC4XVLUCxVANfZen6HZlpXTVXcnoY3kesVRXtZZ8--
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4XPy-00000000lJd-3F5B
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 10:57:01 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[15-Apr-2025 11:04:51 Asia/Jakarta] Token received: 90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9
+[15-Apr-2025 11:04:51 Asia/Jakarta] Password received: Cicakijo12!
+[15-Apr-2025 11:04:51 Asia/Jakarta] Confirm Password received: Cicakijo12!
+[15-Apr-2025 11:04:51 Asia/Jakarta] Checking token: 
+[15-Apr-2025 11:04:52 Asia/Jakarta] User found: 
+[15-Apr-2025 11:04:52 Asia/Jakarta] Current time: 2025-04-15 11:04:52
+[15-Apr-2025 11:04:52 Asia/Jakarta] Token not found in database
+[15-Apr-2025 11:05:29 Asia/Jakarta] Token received: 90d5c0725bd30aa94bad7ec69a9beef5dffae7fd6d9dee271f1c03a8d2621ea9
+[15-Apr-2025 11:05:29 Asia/Jakarta] Password received: Saniman123!
+[15-Apr-2025 11:05:29 Asia/Jakarta] Confirm Password received: sANIMAN123!
+[15-Apr-2025 11:05:29 Asia/Jakarta] Checking token: 
+[15-Apr-2025 11:05:29 Asia/Jakarta] User found: 
+[15-Apr-2025 11:05:29 Asia/Jakarta] Current time: 2025-04-15 11:05:29
+[15-Apr-2025 11:05:29 Asia/Jakarta] Token not found in database
+[15-Apr-2025 11:14:39 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 11:14:39 Asia/Jakarta] Database connection successful
+[15-Apr-2025 11:14:39 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 11:14:39 Asia/Jakarta] Token generated: 6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06
+[15-Apr-2025 11:14:39 Asia/Jakarta] Token stored in database
+[15-Apr-2025 11:14:39 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset_password.php?token=6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06
+[15-Apr-2025 11:14:39 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 11:14:39 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 11:14:39 +0700
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <S4bQmGEAXx2RfV9XekwvLTCnATusnKvir0WhjdO4k@wreckit.id>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_S4bQmGEAXx2RfV9XekwvLTCnATusnKvir0WhjdO4k"
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_S4bQmGEAXx2RfV9XekwvLTCnATusnKvir0WhjdO4k
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset_password.php?token=6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_S4bQmGEAXx2RfV9XekwvLTCnATusnKvir0WhjdO4k
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <h2>Reset Password</h2>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Klik link berikut untuk mereset password Anda:</p>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <a href='https://wreckit.id/wreckit6-dev/reset_password.php?token=6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06'>https://wreckit.id/wreckit6-dev/reset_password.php?token=6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06</a>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <p>Link ini akan kedaluwarsa dalam 1 jam.</p>
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_S4bQmGEAXx2RfV9XekwvLTCnATusnKvir0WhjdO4k--
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4Xh2-00000000TW5-192Z
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 11:14:39 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[15-Apr-2025 11:15:38 Asia/Jakarta] Token received: 6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06
+[15-Apr-2025 11:15:38 Asia/Jakarta] User found: Array
+(
+    [id] => 1
+    [reset_token] => 6ef5f4b4e3765d0bb7c5f05fce0678d0a90b7f3485a958a59bbe3f1a182b4f06
+    [reset_token_expiry] => 2025
+)
+
+[15-Apr-2025 11:15:38 Asia/Jakarta] Current time: 2025-04-15 11:15:38
+[15-Apr-2025 11:15:38 Asia/Jakarta] Expiry time: 2025-04-15 20:25:00
+[15-Apr-2025 14:24:48 Asia/Jakarta] Starting process_forgot_password.php
+[15-Apr-2025 14:24:48 Asia/Jakarta] Database connection successful
+[15-Apr-2025 14:24:48 Asia/Jakarta] Email check completed: User found
+[15-Apr-2025 14:24:48 Asia/Jakarta] Token generated: f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4
+[15-Apr-2025 14:24:48 Asia/Jakarta] Token stored in database
+[15-Apr-2025 14:24:48 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset_password.php?token=f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4
+[15-Apr-2025 14:24:48 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Tue, 15 Apr 2025 14:24:48 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Tue, 15 Apr 2025 14:24:48 +0700
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <3PjqLKJG8NubHsZebS91WmO7A20WfA2PJ5nYME0yGo@wreckit.id>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_3PjqLKJG8NubHsZebS91WmO7A20WfA2PJ5nYME0yGo"
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_3PjqLKJG8NubHsZebS91WmO7A20WfA2PJ5nYME0yGo
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset_password.php?token=f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_3PjqLKJG8NubHsZebS91WmO7A20WfA2PJ5nYME0yGo
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; background-color: #ffffff; border: 1px solid #ddd;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/banner-top.png" alt="Banner Atas Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <h2 style="text-align: center;"> Wreck It 6.0 - Reset Password</h2>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>Dear Participant,</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>We received a request to reset your password. If this was you, click the link below to reset it:</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin: 20px 0;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4" style="display: inline-block; background-color: #007BFF; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">Reset Your Password</a>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>If the button above does not work, copy and paste the link below into your browser:</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4">https://wreckit.id/wreckit6-dev/reset_password.php?token=f2ccbc5fcad2627b1147ade3a480f87e63190e022d5b448453cc0e7ffc7c26b4</a></p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><strong>Note:</strong> This link will expire in 1 hour for security purposes.</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <hr style="margin: 30px 0;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>🎯 Join our Discord server for real-time updates and coordination:</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://discord.gg/wreckit">https://discord.gg/wreckit</a></p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>📢 Stay updated by following our official channels or reach out to us directly:</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <table style="width: 100%; border: 1px solid #ccc; border-collapse: collapse; margin-top: 10px;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/wreckit.id">@wreckit.id</a></td></tr>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/korpstar.poltekssn">@korpstar.poltekssn</a></td></tr>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📧 Email: <a href="mailto:admin@wreckit.id">admin@wreckit.id</a></td></tr>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📱 WhatsApp/Telegram: +62 858 25506613 (Ivhan) | +62 812 39976545 (Iska)</td></tr>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </table>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin-top: 20px;">We can’t wait to see your team in action at Wreck It 6.0! 🔥</p>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/banner-bottom.png" alt="Banner Bawah Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 </div>
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_3PjqLKJG8NubHsZebS91WmO7A20WfA2PJ5nYME0yGo--
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4af3-00000000RMu-1of5
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[15-Apr-2025 14:24:48 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 33
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 33
+[16-Apr-2025 11:14:08 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 33
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:15:47 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:02 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:04 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:30:04 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:30:04 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:30:13 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:13 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:13 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:46 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:46 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:46 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:52 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:30:53 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:30:53 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:30:53 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 3
+[16-Apr-2025 11:31:04 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:31:04 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:31:04 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:36:01 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:36:01 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:36:01 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:39:55 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 11:40:01 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:40:01 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:40:01 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/join_team.php on line 3
+[16-Apr-2025 11:45:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/wrer2578/public_html/wreckit6-dev/create_team.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 21
+[16-Apr-2025 12:02:31 Asia/Jakarta] PHP Notice:  Undefined variable: pdo in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 25
+[16-Apr-2025 12:02:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/wrer2578/public_html/wreckit6-dev/create_team.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/wrer2578/public_html/wreckit6-dev/create_team.php on line 25
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 12:04:18 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[16-Apr-2025 14:09:34 Asia/Jakarta] Starting process_forgot_password.php
+[16-Apr-2025 14:09:34 Asia/Jakarta] Database connection successful
+[16-Apr-2025 14:09:34 Asia/Jakarta] Email check completed: User found
+[16-Apr-2025 14:09:34 Asia/Jakarta] Token generated: 90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c
+[16-Apr-2025 14:09:34 Asia/Jakarta] Token stored in database
+[16-Apr-2025 14:09:34 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset_password.php?token=90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c
+[16-Apr-2025 14:09:34 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Wed, 16 Apr 2025 14:09:35 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Wed, 16 Apr 2025 14:09:34 +0700
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <qs4uVj6GgiK8fyhCigWwxRKt7ibVqQQB8O4wCEgASE@wreckit.id>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_qs4uVj6GgiK8fyhCigWwxRKt7ibVqQQB8O4wCEgASE"
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_qs4uVj6GgiK8fyhCigWwxRKt7ibVqQQB8O4wCEgASE
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset_password.php?token=90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_qs4uVj6GgiK8fyhCigWwxRKt7ibVqQQB8O4wCEgASE
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; background-color: #ffffff; border: 1px solid #ddd;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/banner-top.png" alt="Banner Atas Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <h2 style="text-align: center;"> Wreck It 6.0 - Reset Password</h2>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>Dear Participant,</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>We received a request to reset your password. If this was you, click the link below to reset it:</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin: 20px 0;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c" style="display: inline-block; background-color: #007BFF; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">Reset Your Password</a>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>If the button above does not work, copy and paste the link below into your browser:</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c">https://wreckit.id/wreckit6-dev/reset_password.php?token=90249fc11d0744408e3c6c7d5829489303026d643914f99a349d3a4a9cfa367c</a></p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><strong>Note:</strong> This link will expire in 1 hour for security purposes.</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <hr style="margin: 30px 0;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>🎯 Join our Discord server for real-time updates and coordination:</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://discord.gg/wreckit">https://discord.gg/wreckit</a></p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>📢 Stay updated by following our official channels or reach out to us directly:</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <table style="width: 100%; border: 1px solid #ccc; border-collapse: collapse; margin-top: 10px;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/wreckit.id">@wreckit.id</a></td></tr>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/korpstar.poltekssn">@korpstar.poltekssn</a></td></tr>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📧 Email: <a href="mailto:admin@wreckit.id">admin@wreckit.id</a></td></tr>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📱 WhatsApp/Telegram: +62 858 25506613 (Ivhan) | +62 812 39976545 (Iska)</td></tr>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </table>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin-top: 20px;">We can’t wait to see your team in action at Wreck It 6.0! 🔥</p>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/banner-bottom.png" alt="Banner Bawah Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 </div>
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_qs4uVj6GgiK8fyhCigWwxRKt7ibVqQQB8O4wCEgASE--
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4wts-00000000DLo-1hPb
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[16-Apr-2025 14:09:35 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[16-Apr-2025 14:10:53 Asia/Jakarta] Starting process_forgot_password.php
+[16-Apr-2025 14:10:53 Asia/Jakarta] Database connection successful
+[16-Apr-2025 14:10:53 Asia/Jakarta] Email check completed: User found
+[16-Apr-2025 14:10:53 Asia/Jakarta] Token generated: 7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325
+[16-Apr-2025 14:10:53 Asia/Jakarta] Token stored in database
+[16-Apr-2025 14:10:53 Asia/Jakarta] Reset link: https://wreckit.id/wreckit6-dev/reset_password.php?token=7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325
+[16-Apr-2025 14:10:53 Asia/Jakarta] Attempting to send email to tsanisunny22@gmail.com
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 220-wakatobi.iixcp.rumahweb.net ESMTP Exim 4.98.1 #2 Wed, 16 Apr 2025 14:10:53 +0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: EHLO wreckit.id
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250-wakatobi.iixcp.rumahweb.net Hello wreckit.id [2001:df1:7800:2::6:6264]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: [credentials hidden]
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MAIL FROM:<no-reply@wreckit.id>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: RCPT TO:<tsanisunny22@gmail.com>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 Accepted
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: DATA
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Date: Wed, 16 Apr 2025 14:10:53 +0700
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: To: tsanisunny22@gmail.com
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: From: Wreckit CTF <no-reply@wreckit.id>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Subject: Reset Password - Wreckit CTF
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Message-ID: <UbtA9Wi6l2i0mFnPBdX6c71XNCl7b3EHqyq7tTVBfw@wreckit.id>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:  boundary="b1=_UbtA9Wi6l2i0mFnPBdX6c71XNCl7b3EHqyq7tTVBfw"
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_UbtA9Wi6l2i0mFnPBdX6c71XNCl7b3EHqyq7tTVBfw
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Halo,
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Klik link berikut untuk mereset password Anda:
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: https://wreckit.id/wreckit6-dev/reset_password.php?token=7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Link ini berlaku selama 1 jam.
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_UbtA9Wi6l2i0mFnPBdX6c71XNCl7b3EHqyq7tTVBfw
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; background-color: #ffffff; border: 1px solid #ddd;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/wreckit6-dev/banner-top.png" alt="Banner Atas Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <h2 style="text-align: center;"> Wreck It 6.0 - Reset Password</h2>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>Dear Participant,</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>We received a request to reset your password. If this was you, click the link below to reset it:</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin: 20px 0;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325" style="display: inline-block; background-color: #007BFF; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">Reset Your Password</a>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>If the button above does not work, copy and paste the link below into your browser:</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://wreckit.id/wreckit6-dev/reset_password.php?token=7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325">https://wreckit.id/wreckit6-dev/reset_password.php?token=7f74dfe9cd573d63140ce2397cdce24dc3b0657d143c8005e9408895c5b25325</a></p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><strong>Note:</strong> This link will expire in 1 hour for security purposes.</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <hr style="margin: 30px 0;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>🎯 Join our Discord server for real-time updates and coordination:</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p><a href="https://discord.gg/wreckit">https://discord.gg/wreckit</a></p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p>📢 Stay updated by following our official channels or reach out to us directly:</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <table style="width: 100%; border: 1px solid #ccc; border-collapse: collapse; margin-top: 10px;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/wreckit.id">@wreckit.id</a></td></tr>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📸 Instagram: <a href="https://instagram.com/korpstar.poltekssn">@korpstar.poltekssn</a></td></tr>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📧 Email: <a href="mailto:admin@wreckit.id">admin@wreckit.id</a></td></tr>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                         <tr><td style="padding: 8px;">📱 WhatsApp/Telegram: +62 858 25506613 (Ivhan) | +62 812 39976545 (Iska)</td></tr>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     </table>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <p style="text-align: center; margin-top: 20px;">We can’t wait to see your team in action at Wreck It 6.0! 🔥</p>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                     <img src="https://wreckit.id/wreckit6-dev/banner-bottom.png" alt="Banner Bawah Wreck It 6" style="width: 100%; max-width: 100%; height: auto;">
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:                 </div>
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER:             
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: --b1=_UbtA9Wi6l2i0mFnPBdX6c71XNCl7b3EHqyq7tTVBfw--
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: 
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: .
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 250 OK id=1u4wv9-00000000GUN-0ICJ
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [1]: CLIENT -> SERVER: QUIT
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] PHPMailer debug [2]: SERVER -> CLIENT: 221 wakatobi.iixcp.rumahweb.net closing connection
+
+[16-Apr-2025 14:10:53 Asia/Jakarta] Email sent successfully to tsanisunny22@gmail.com
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 08:52:28 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:06:34 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(template/header.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 10
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
+[17-Apr-2025 09:14:20 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/wrer2578/public_html/wreckit6-dev/choose_team.php on line 27
